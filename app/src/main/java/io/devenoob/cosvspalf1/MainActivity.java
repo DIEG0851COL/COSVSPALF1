@@ -47,13 +47,14 @@ public class MainActivity extends AppCompatActivity {
         textView = findViewById(R.id.Detalles_usuario);
         user = auth.getCurrentUser();
 
-        // Configuración del ViewPager2
+
         viewPager2 = findViewById(R.id.viewPager);
         viewPagerAdapter = new ViewPagerAdapter(this);
         viewPager2.setAdapter(viewPagerAdapter);
 
         // Configuración del BottomNavigationView
         bottomNavigationView = findViewById(R.id.bottomNav);
+
         bottomNavigationView.setOnItemSelectedListener(new NavigationBarView.OnItemSelectedListener() {
             @SuppressLint("NonConstantResourceId")
             @Override
