@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+    <!-- res/layout/fragment_home.xml -->
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".HomeFragment">
+
+        <!-- Título -->
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido COSVSP"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Descripción -->
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Productos y Servicios:
+Vidrio Arquitectónico: Suministramos vidrio laminado, vidrio templado, vidrio de doble acristalamiento y otros productos específicos para proyectos de construcción, incluyendo fachadas, ventanas, barandillas y divisiones de espacios.
+Vidrio Decorativo: Ofrecemos vidrio decorativo personalizado que puede utilizarse en aplicaciones de diseño de interiores, como mesas, espejos, mamparas de baño, y revestimientos de paredes.
+Vidrio Industrial: Proveemos vidrio de seguridad y resistente al calor para aplicaciones industriales, como horno de vidrio, equipos de laboratorio y paneles de control.
+Vidrio para Vehículos: Colaboramos con la industria automotriz suministrando vidrio para parabrisas, ventanas laterales y lunetas traseras de vehículos.
+Servicios de Instalación: Contamos con un equipo altamente capacitado para la instalación de nuestros productos en proyectos comerciales y residenciales, garantizando una aplicación precisa y segura."
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Botón u otros elementos de la interfaz -->
+        <!-- Agrega aquí los elementos que desees mostrar en la página de inicio -->
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

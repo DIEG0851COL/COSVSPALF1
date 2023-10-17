@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "101637608055",
+    "project_id": "cosvspalf1",
+    "storage_bucket": "cosvspalf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101637608055:android:a9e7829090b63591af2c72",
+        "android_client_info": {
+          "package_name": "io.devenoob.cosvspalf1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRLfWkrmM3q0-JIYHFbugLBrD1-VdMUro"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
